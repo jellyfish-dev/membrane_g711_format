@@ -21,11 +21,11 @@ defmodule Membrane.G711 do
   Sample rate of G.711 stream (always 8000 Hz)
   """
   @spec sample_rate() :: 8000
-  def sample_rate(), do: 8000
+  defmacro sample_rate(), do: 8000
 
   @doc """
   Number of channels in G.711 stream (always mono, 1 channel)
   """
   @spec num_channels() :: 1
-  def num_channels(), do: 1
+  defmacro num_channels(), do: 1
 end
