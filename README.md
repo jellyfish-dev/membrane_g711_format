@@ -2,7 +2,7 @@
 
 [![Hex.pm](https://img.shields.io/hexpm/v/membrane_g711_format.svg)](https://hex.pm/packages/membrane_g711_format)
 [![API Docs](https://img.shields.io/badge/api-docs-yellow.svg?style=flat)](https://hexdocs.pm/membrane_g711_format)
-[![CircleCI](https://circleci.com/gh/membraneframework/membrane_g711_format.svg?style=svg)](https://circleci.com/gh/membraneframework/membrane_g711_format)
+[![CircleCI](https://circleci.com/gh/jellyfish-dev/membrane_g711_format.svg?style=svg)](https://circleci.com/gh/jellyfish-dev/membrane_g711_format)
 
 This package provides G711 audio format definition for the
 [Membrane Multimedia Framework](https://membrane.stream).
