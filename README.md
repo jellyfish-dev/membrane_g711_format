@@ -1,34 +1,32 @@
-# Membrane Template Plugin
+# Membrane Multimedia Framework: G711 audio format definition
 
-[![Hex.pm](https://img.shields.io/hexpm/v/membrane_template_plugin.svg)](https://hex.pm/packages/membrane_template_plugin)
-[![API Docs](https://img.shields.io/badge/api-docs-yellow.svg?style=flat)](https://hexdocs.pm/membrane_template_plugin)
-[![CircleCI](https://circleci.com/gh/membraneframework/membrane_template_plugin.svg?style=svg)](https://circleci.com/gh/membraneframework/membrane_template_plugin)
+[![Hex.pm](https://img.shields.io/hexpm/v/membrane_g711_format.svg)](https://hex.pm/packages/membrane_g711_format)
+[![API Docs](https://img.shields.io/badge/api-docs-yellow.svg?style=flat)](https://hexdocs.pm/membrane_g711_format)
+[![CircleCI](https://circleci.com/gh/membraneframework/membrane_g711_format.svg?style=svg)](https://circleci.com/gh/membraneframework/membrane_g711_format)
 
-This repository contains a template for new plugins.
-
-Check out different branches for other flavours of template.
-
-It is part of [Membrane Multimedia Framework](https://membraneframework.org).
+This package provides G711 audio format definition for the
+[Membrane Multimedia Framework](https://membrane.stream).
 
 ## Installation
 
-The package can be installed by adding `membrane_template_plugin` to your list of dependencies in `mix.exs`:
+Unless you're developing a Membrane Element it's unlikely that you need to
+use this package directly in your app, as normally it is going to be fetched as
+a dependency of any element that operates on G711 audio stream.
+
+However, if you are developing an Element or need to add it for any other reason,
+the package can be installed by adding `membrane_g711_format` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:membrane_template_plugin, "~> 0.1.0"}
+    {:membrane_g711_format, "~> 0.1.0"}
   ]
 end
 ```
 
-## Usage
-
-TODO
-
 ## Copyright and License
 
-Copyright 2020, [Software Mansion](https://swmansion.com/?utm_source=git&utm_medium=readme&utm_campaign=membrane_template_plugin)
+Copyright 2023, [Software Mansion](https://swmansion.com/?utm_source=git&utm_medium=readme&utm_campaign=membrane_template_plugin)
 
 [![Software Mansion](https://logo.swmansion.com/logo?color=white&variant=desktop&width=200&tag=membrane-github)](https://swmansion.com/?utm_source=git&utm_medium=readme&utm_campaign=membrane_template_plugin)
 
